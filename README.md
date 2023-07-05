@@ -24,7 +24,7 @@ Nesta aula, o professor menciona a importância de um acordo imaginário para ap
 
 Módulos do Curso:
 
-<img src="images/C1/ModulosCurso.png" width="75%">
+<img src="images/C1/ModulosCurso.png" width="100%">
 
 ---
 
@@ -34,11 +34,11 @@ Nesta aula, o professor discute a relevância de um curso online e se ele é ade
 
 **É pra você**
 
-<img src="images/C1/Epravoce.png" width="35%">
+<img src="images/C1/Epravoce.png" width="100%">
 
 **Não é pra você**
 
-<img src="images/C1/Naoepravoce.png" width="35%">
+<img src="images/C1/Naoepravoce.png" width="100%">
 
 ---
 
@@ -48,11 +48,11 @@ Nesta aula, o professor fala sobre a importância de ter bibliografia e materiai
 
 Referência Online
 
-<img src="images/C1/ReferenciaOnline.png" width="35%">
+<img src="images/C1/ReferenciaOnline.png" width="100%">
 
 Livros
 
-<img src="images/C1/Livros.png" width="35%">
+<img src="images/C1/Livros.png" width="100%">
 
 ---
 
@@ -72,15 +72,15 @@ Nesta aula, o professor menciona alguns conceitos sobre como a internet funciona
 
 Dados em armazenagem
 
-<img src="images/C2/RepresentacaoDados.png" width="35%">
+<img src="images/C2/RepresentacaoDados.png" width="100%">
 
 Modem
 
-<img src="images/C2/modem.png" width="35%">
+<img src="images/C2/modem.png" width="100%">
 
 Servidores
 
-<img src="images/C2/Servidores.png" width="35%">
+<img src="images/C2/Servidores.png" width="100%">
 
 ---
 
@@ -90,7 +90,7 @@ O professor fala sobre o funcionamento da internet e como os sites são acessado
 
 Dominio e hospedagem
 
-<img src="images/C2/DominioHospedagem.png" width="35%">
+<img src="images/C2/DominioHospedagem.png" width="100%">
 
 ---
 
@@ -104,19 +104,19 @@ Neste vídeo, o professor fala sobre HTML, CSS e JavaScript, que são as três t
 
 Exemplo das tecnologias em um site:
 
-<img src="images/C3/HTML_CSS_JS.png" width="35%">
+<img src="images/C3/HTML_CSS_JS.png" width="100%">
 
 Exemplo de Tags HTML e suas estruturas:
 
-<img src="images/C3/ConteudoHTML.png" width="35%">
+<img src="images/C3/ConteudoHTML.png" width="100%">
 
 Exemplo de Tag CSS e sua estrutura:
 
-<img src="images/C3/ConteudoCSS.png" width="35%">
+<img src="images/C3/ConteudoCSS.png" width="100%">
 
 Exemplo da estrutura do documento HTML:
 
-<img src="images/C3/ConteudoHTMLDOM.png" width="35%">
+<img src="images/C3/ConteudoHTMLDOM.png" width="100%">
 
 ---
 
@@ -124,7 +124,7 @@ Exemplo da estrutura do documento HTML:
 
 Neste vídeo, o professor fala sobre os termos "front-end", "back-end", "client-side" e "server-side". Ele explica que front-end refere-se ao desenvolvimento visual e interativo de um site, utilizando tecnologias como HTML, CSS e JavaScript. O back-end está relacionado à interação do código com o servidor, utilizando linguagens como PHP, JavaScript, C#, Python, Ruby, entre outras. O termo client-side é usado para se referir às tecnologias que rodam no navegador do cliente e server-side para tecnologias que rodam no servidor. O professor também destaca a diferença entre front-end e designer, explicando que o designer é responsável pela parte visual e o front-end adapta o design utilizando as tecnologias adequadas.
 
-<img src="images/C3/FrontEndBackEnd.png" width="35%">
+<img src="images/C3/FrontEndBackEnd.png" width="100%">
 
 ---
 
