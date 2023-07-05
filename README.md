@@ -24,7 +24,7 @@ Nesta aula, o professor menciona a importância de um acordo imaginário para ap
 
 Módulos do Curso:
 
-<img src="images/C1/ModulosCurso.png" width="35%">
+<img src="images/C1/ModulosCurso.png" width="50%">
 
 ---
 
