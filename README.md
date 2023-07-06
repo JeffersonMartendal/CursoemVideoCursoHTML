@@ -150,9 +150,9 @@ Usamos as tags abaixo:
 
 ```html
 <title></title> <!-- Título da página -->
-<h1></h1> <!-- Título de cabeçalho nível 1 -->
-<p></p> <!-- Parágrafo -->
-<hr> <!-- Quebra temática entre elementos / linha horizontal -->
+<h1></h1>       <!-- Título de cabeçalho nível 1 -->
+<p></p>         <!-- Parágrafo -->
+<hr>            <!-- Quebra temática entre elementos / linha horizontal -->
 ```
 
 Nesta aula criamos o exercício [ex001](Exerc%C3%ADcios%20e%20Desafios/ex001/index.html)
@@ -173,7 +173,7 @@ Usamos as tags abaixo:
 <br> <!-- Quebra de linha -->
 ```
 
-Nesta aula criamos o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/index.html)
+Nesta aula criamos o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/index.html).
 
 ---
 
@@ -181,7 +181,7 @@ Nesta aula criamos o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/ind
 
 Aprendemos que a tag br não deve ser usada em excesso e que espaçamento será ensinado em CSS para fazer da maneira correta. Também foi ensinado a criar símbolos especiais e emojis utilizando html.
 
-Site usado no vídeo [Emojipedia](https://emojipedia.org/)
+Site usado no vídeo [Emojipedia](https://emojipedia.org/) para buscar emojis.
 
 Usamos nesta aula o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/index.html) para editá-lo.
 
@@ -193,21 +193,61 @@ Usamos nesta aula o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/inde
 
 #### Aula 01 - Você tem o direito de usar qualquer imagem no seu site?
 
+Nesta aula, o professor aborda a importância de compreender os direitos autorais ao utilizar imagens em um site. Ele destaca que copiar imagens da internet e utilizá-las como se fossem suas não é correto legalmente, mesmo que muitas pessoas pensem o contrário. O professor menciona a necessidade de agir profissionalmente e respeitar os direitos autorais ao construir sites para clientes. Ele ensina como refinar as buscas no Google Imagens para encontrar imagens que possam ser utilizadas corretamente, mencionando opções de licença e sugerindo sites como Unsplash e Pexels, que oferecem imagens gratuitas com licenças adequadas.
+
+Site usado no vídeo [Unsplash](https://unsplash.com/pt-br) para buscar imagens com licença de uso.
+
+Site usado no vídeo [Pexels](https://www.pexels.com/pt-br/) para buscar imagens com licença de uso.
+
+Site usado no vídeo [GIMP](https://www.gimp.org/) para edição de imagens.
+
 ---
 
 #### Aula 02 - Quais são os formatos para imagens na Web?
+
+Nesta aula, o professor fala sobre a instalação de uma ferramenta chamada GIMP e em seguida aborda os formatos de imagem mais comuns para uso na web, como JPEG e PNG. Ele explica que o formato JPEG comprime as imagens, eliminando repetições de pixels, enquanto o PNG preserva melhor a qualidade, mas pode gerar arquivos maiores. O professor ressalta que a escolha do formato depende das necessidades e preferências individuais.
 
 ---
 
 #### Aula 03 - O tamanho das imagens importa para um site?
 
+Nesta aula, o professor fala sobre a diferença entre os formatos de imagem JPEG e PNG e explica que o tamanho das imagens é um assunto importante ao adicionar imagens em um site. Ele menciona a necessidade de gerar diferentes tamanhos de imagem para otimização e descreve como redimensionar uma imagem usando a ferramenta GIMP. O professor ensina a compactar imagens e dâ enfâse na importância no tamanho em bytes das imagens para não deixar o site que está criando muito lento ou com consumo alto de dados.
+
 ---
 
 #### Aula 04 - A tag img em HTML5
 
+Nesta aula, o professor fala sobre a adição de imagens em um site usando a tag ``` <img> ```. Ele menciona a importância de entender os direitos autorais, formatos e tamanhos de imagem, e destaca a necessidade de conhecer esses conceitos antes de trabalhar com imagens em um site. Em seguida, ele demonstra como adicionar uma imagem ao site, explica a importância de incluir um texto alternativo para acessibilidade e formas diferentes de adicionar a imagem através de uma URL, a imagem dentro da pasta onde está o documento HTML e em outra pasta qualquer.
+
+Usamos a tag abaixo:
+
+```html
+<img src="URL/caminho da imagem" alt="descrição da imagem" /> <!-- Acrescentando uma imagem ao site -->
+```
+
+Nesta aula criamos o exercício [ex003](Exerc%C3%ADcios%20e%20Desafios/ex003/index.html).
+
 ---
 
 #### Aula 05 - Como mudar o favicon de um site
+
+Neste vídeo, o professor explica que os ícones de favoritos são aqueles pequenos ícones exibidos na guia do navegador ao abrir um site. O professor menciona a importância de ter um ícone de favorito para o site e mostra algumas formas de criar um ícone. Ele sugere usar uma imagem simples e de baixa complexidade para criar o ícone e oferece dicas sobre onde encontrar imagens gratuitas para usar como ícone de favorito. O professor também menciona um site onde é possível desenhar o próprio ícone de favorito entre outros.
+
+Usamos a tag abaixo:
+
+```html
+<link rel="Define a relação entre um recurso vinculado em href" href="Caminho do favicon" type="Especifica o formato de tipo MIME do item que está sendo vinculado"> <!-- Acrescentando um favicon ao site -->
+```
+
+Site usado para consultar info sobre favicon [bitsofcode](https://bitsofco.de/all-about-favicons-and-touch-icons/).
+
+Site usado no vídeo [Icon Archive](https://www.iconarchive.com/) para buscar ícones/favicons.
+
+Site usado no vídeo [favicon.cc](https://www.favicon.cc/) para criar ícones/favicons.
+
+Site usado no vídeo [favicon.io](https://favicon.io/) para transformar texto, imagem, emoji em ícones/favicons.
+
+Nesta aula criamos o exercício [ex004](Exerc%C3%ADcios%20e%20Desafios/ex004/index.html).
 
 ---
 
@@ -217,6 +257,19 @@ Usamos nesta aula o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/inde
 
 #### Aula 01 - Hierarquia de Títulos
 
+Neste vídeo, o professor fala sobre hierarquia de títulos em HTML5. Ele explica que os títulos em HTML têm níveis, representados pelos números de 1 a 6. O professor utiliza exemplos de revistas e índices de livros para ilustrar a hierarquia dos títulos. Ele mostra como os títulos principais estão no nível 1, os subtítulos estão em níveis mais baixos (2, 3, 4, etc.) e como isso é importante para a estrutura e organização do conteúdo. Em seguida, o professor mostra um exercício prático em que deve-se criar um arquivo HTML e utilizar os diferentes níveis de títulos.
+
+Usamos as tags abaixo:
+
+```html
+<h2></h2>   <!-- Título de cabeçalho nível 2 -->
+<h3></h3>   <!-- Título de cabeçalho nível 3 -->
+<h4></h4>   <!-- Título de cabeçalho nível 4 -->
+Lorem       <!-- Usado para criar texto aleatório -->
+```
+
+Nesta aula criamos o exercício [ex006](Exerc%C3%ADcios%20e%20Desafios/ex006/index.html).
+
 ---
 
 ### Capítulo 08
@@ -225,17 +278,76 @@ Usamos nesta aula o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/inde
 
 #### Aula 01 - Semântica na HTML5 é importante
 
+O vídeo aborda a importância da semântica no HTML5, explicando que se trata do significado das tags utilizadas. São mencionadas algumas diferenças entre o HTML4 e o HTML5, como o uso de tags obsoletas no HTML4 e a necessidade de estar atualizado nas especificações do HTML. O professor oferece um exemplo prático de criação de um arquivo HTML4 e destaca a importância de evitar o uso de tags obsoletas e estar atento às mudanças no HTML5. Por fim, é mencionada a importância de utilizar tags semânticas e demonstrado como alterar a cor de fundo usando CSS3.
+
+Site usado no vídeo [W3C](https://www.w3.org/TR/2010/WD-html5-20100304/obsolete.html) para verificar tags obsoletas.
+
+Usamos as tags abaixo:
+
+
+```html
+    <style></style>     <!-- Contém informações de estilo para um documento ou uma parte do documento. -->
+    <address></address> <!-- Fornece informações de contato como endereço físico, URL, email, telefone, mídia social, coordenadas geográficas, por aí vai. -->
+```
+
+```css
+    body {                      /* seletor html para ser declarado */
+        background-color: blue; /* propriedade de cor de fundo : valor da propriedade */
+    }
+```
+
+Nesta aula criamos o exercício [ex007](Exerc%C3%ADcios%20e%20Desafios/ex007/index.html).
+
 ---
 
 #### Aula 02 - Negrito e Itálico do jeito certo
+
+Neste vídeo, o professor continua os estudos sobre formatação de textos em HTML5. Ele destaca a importância do conceito de semântica no HTML5 e apresenta diferentes formas de formatação, incluindo negrito e itálico. São mencionadas tanto as tags não semânticas quanto as tags semânticas para enfatizar palavras ou frases específicas.
+
+Nesta aula criamos o exercício [ex008](Exerc%C3%ADcios%20e%20Desafios/ex008/index.html).
+
+```html
+    <b></b>             <!-- Negrito sem semântica -->
+    <strong></strong>   <!-- Negrito de forma semântica -->
+    <i></i>             <!-- Itálico sem semântica -->
+    <em></em>           <!-- Ênfase de forma semântica -->
+```
 
 ---
 
 #### Aula 03 - Formatações adicionais em HTML
 
+Neste vídeo, o professor continua falando sobre formatação de textos em HTML e CSS. Ele destaca a tag ```<mark>``` como uma forma de destacar texto, como um marcador de texto. Ele também menciona a importância de aprender CSS para fazer formatações mais avançadas. Ele também explica como alterar a cor do marcador usando CSS. O professor menciona que existem outras formas de estilizar o texto de forma semântica como algumas das tags abaixo.
+
+```html
+    <mark></mark>   <!-- Texto marcado -->
+    <big></big>     <!-- Texto grande / tag obsoleta -->
+    <small></small> <!-- Texto pequeno -->
+    <del></del>     <!-- Texto deletado -->
+    <ins></ins>     <!-- Texto inserido/sublinhado semântico -->
+    <u></u>         <!-- Texto sublinhado não semântico -->
+    <sup></sup>     <!-- Texto sobrescrito -->
+    <sub></sub>     <!-- Texto subscrito -->
+```
+
+Usamos nesta aula o exercício [ex008](Exerc%C3%ADcios%20e%20Desafios/ex008/index.html) para editá-lo.
+
 ---
 
 #### Aula 04 - Citações e Códigos
+
+Nesta última parte do Capítulo 8, o professor aborda a formatação de código-fonte, abreviações e citações. Ele demonstra como envelopar trechos de código usando a tag ```<code>``` e preservar a formatação com a tag ```<pre>```. O professor mostra exemplos de outras tags e ressalta a importância da organização e indentação do código.
+
+Nesta aula criamos o exercício [ex008b](Exerc%C3%ADcios%20e%20Desafios/ex008b/index.html).
+
+```html
+    <code></code>               <!-- Exibe seu conteúdo estilizado de forma a indicar que o texto é um pequeno fragmento de código de computador. -->
+    <pre></pre>                 <!-- Tag utilizada para representar texto pré-formatado. -->
+    <q></q>                     <!-- Indica que o texto dentro da tag é uma pequena citação. -->
+    <blockquote></blockquote>   <!-- Indica que o texto incluído é uma longa citação. -->
+    <abbr></abbr>               <!-- Representa uma abreviação ou acrônimo. -->
+    <bdo></bdo>                 <!-- É usado para substituir a direcionalidade atual do texto. -->
+```
 
 ---
 
@@ -244,6 +356,16 @@ Usamos nesta aula o exercício [ex002](Exerc%C3%ADcios%20e%20Desafios/ex002/inde
 ---
 
 #### Aula 01 - Lista OL e UL
+
+Nesta parte do curso, o professor inicia o estudo sobre listas em HTML. Ele explica que as listas são amplamente utilizadas e introduz os três tipos de listas suportadas pelo HTML: listas ordenadas e listas não ordenadas. O professor mostra como trabalhar com listas ordenadas, utilizando as tags ```<ol>``` e ```<ul>``` e dentro das respectivas tags os itens de lista ```<li>```.
+
+```html
+    <ol></ol>   <!-- Representa uma lista de itens ordenados. -->
+    <ul></ul>   <!-- Representa uma lista de itens não ordenados. -->
+    <li></li>   <!-- Representa um item que faz parte de uma lista. -->
+```
+
+Nesta aula criamos o exercício [ex009](Exerc%C3%ADcios%20e%20Desafios/ex009/index.html).
 
 ---
 
