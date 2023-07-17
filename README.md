@@ -306,6 +306,8 @@ Neste vídeo, o professor continua os estudos sobre formatação de textos em HT
 
 Nesta aula criamos o exercício [ex008](Exerc%C3%ADcios%20e%20Desafios/ex008/index.html).
 
+Usamos as tags abaixo:
+
 ```html
     <b></b>             <!-- Negrito sem semântica -->
     <strong></strong>   <!-- Negrito de forma semântica -->
@@ -318,6 +320,8 @@ Nesta aula criamos o exercício [ex008](Exerc%C3%ADcios%20e%20Desafios/ex008/ind
 #### Aula 03 - Formatações adicionais em HTML
 
 Neste vídeo, o professor continua falando sobre formatação de textos em HTML e CSS. Ele destaca a tag ```<mark>``` como uma forma de destacar texto, como um marcador de texto. Ele também menciona a importância de aprender CSS para fazer formatações mais avançadas. Ele também explica como alterar a cor do marcador usando CSS. O professor menciona que existem outras formas de estilizar o texto de forma semântica como algumas das tags abaixo.
+
+Usamos as tags abaixo:
 
 ```html
     <mark></mark>   <!-- Texto marcado -->
@@ -340,6 +344,8 @@ Nesta última parte do Capítulo 8, o professor aborda a formatação de código
 
 Nesta aula criamos o exercício [ex008b](Exerc%C3%ADcios%20e%20Desafios/ex008b/index.html).
 
+Usamos as tags abaixo:
+
 ```html
     <code></code>               <!-- Exibe seu conteúdo estilizado de forma a indicar que o texto é um pequeno fragmento de código de computador. -->
     <pre></pre>                 <!-- Tag utilizada para representar texto pré-formatado. -->
@@ -359,6 +365,8 @@ Nesta aula criamos o exercício [ex008b](Exerc%C3%ADcios%20e%20Desafios/ex008b/i
 
 Nesta parte do curso, o professor inicia o estudo sobre listas em HTML. Ele explica que as listas são amplamente utilizadas e introduz os três tipos de listas suportadas pelo HTML: listas ordenadas e listas não ordenadas. O professor mostra como trabalhar com listas ordenadas, utilizando as tags ```<ol>``` e ```<ul>``` e dentro das respectivas tags os itens de lista ```<li>```.
 
+Usamos as tags abaixo:
+
 ```html
     <ol></ol>   <!-- Representa uma lista de itens ordenados. -->
     <ul></ul>   <!-- Representa uma lista de itens não ordenados. -->
@@ -371,6 +379,19 @@ Nesta aula criamos o exercício [ex009](Exerc%C3%ADcios%20e%20Desafios/ex009/ind
 
 #### Aula 02 - Listas mistas e de definição
 
+Neste vídeo, o professor aborda listas mistas e listas de definição. Ele inicia explicando como misturar listas ordenadas e não ordenadas, criando sub-listas dentro de outras. Em seguida, demonstra como criar listas de definição, onde se tem um termo e sua definição correspondente. Essa lista é como um dicionário, onde o termo fica à esquerda e a definição, um pouco mais recuada para a direita.
+Essas listas podem ser úteis para criar menus e são personalizáveis com CSS.
+
+Usamos as tags abaixo:
+
+```html
+    <dl></dl>  <!-- Lista de definição para englobar uma lista de pares de termos e descrições -->
+    <dt></dt>  <!-- Definição de termo, identifica um termo na lista de definição -->
+    <dd></dd>  <!-- Fornece detalhes ou uma definição mais completa do termo precedente definido por dt -->
+```
+
+Usamos nesta aula o exercício [ex009](Exerc%C3%ADcios%20e%20Desafios/ex009/index.html) para editá-lo.
+
 ---
 
 ### Capítulo 10
@@ -379,17 +400,44 @@ Nesta aula criamos o exercício [ex009](Exerc%C3%ADcios%20e%20Desafios/ex009/ind
 
 #### Aula 01 - Links e Âncoras em HTML5
 
+Nesta aula, o professor fala sobre a importância dos links na web, explicando que eles são fundamentais para a navegação entre páginas e sites. Os links são como âncoras clicáveis que levam o usuário de um lugar para outro na internet. O professor menciona a relevância dos links externos, que apontam para outros sites, e sugere usar o atributo "target" com "blank" para abrir esses links em uma nova aba, mantendo o site original acessível. O texto também menciona a criação de links internos. O foco principal é ensinar sobre links na web e sua importância para a navegação.
+
+Nesta aula criamos o exercício [ex010](Exerc%C3%ADcios%20e%20Desafios/ex010/index.html).
+
 ---
 
 #### Aula 02 - Links Internos
+
+Nesta aula, o professor fala sobre links internos e como criar ligações entre páginas em um site. Ele menciona que um link interno é uma ligação que conecta uma página a outra dentro do mesmo servidor. Primeiro, ele mostra como criar um link interno para a segunda página, e também como adicionar um link de volta para a primeira página. Em seguida, ele cria uma terceira página dentro de uma pasta separada e explica como criar um link interno para essa página, incluindo o caminho para acessá-la dentro da pasta. O professor também menciona a possibilidade de usar o atributo "target" para abrir links em uma nova aba ou na mesma página. Além disso, ele explica a opção "nofollow" para links patrocinados ou quando não deseja dar um aval ao conteúdo do link.
+
+Usamos nesta aula o exercício [ex010](Exerc%C3%ADcios%20e%20Desafios/ex010/index.html) para editá-lo.
+
+Usamos as tags abaixo:
+
+```html
+    <a href="local/endereço">Texto do link</a>  <!-- O elemento a (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL -->
+    
+```
 
 ---
 
 #### Aula 03 - Links para download
 
+Nesta aula, você aprenderá a criar links para efetuar o download de arquivos. Para isso, o vídeo demonstra como criar links para download de um arquivo PDF e de um arquivo ZIP. Primeiro, é mostrado como criar o link para o arquivo PDF, com a opção de fazer o download diretamente ou abrir o arquivo no navegador. Em seguida, é explicado como fazer o download do arquivo ZIP, utilizando a tag "a" e definindo o tipo de arquivo. O vídeo também menciona a possibilidade de compactar o arquivo ZIP para facilitar o download.
+
+Os desafios propostos no Capítulo 10 envolvem criar links para diferentes tipos de arquivos e realizar ações específicas, como fazer o download de imagens e PDFs, e criar links internos e externos.
+
+Usamos nesta aula o exercício [ex010](Exerc%C3%ADcios%20e%20Desafios/ex010/index.html) para editá-lo.
+
 ---
 
 #### Aula 04 - Desafios propostos
+
+Nesta aula, o professor apresenta os desafios do Capítulo 10 do curso de HTML e CSS.
+
+Os desafios propostos são o Desafio 5 e o Desafio 6. No Desafio 5, devemos criar uma página com as redes sociais do professor o sua mesmo, incluindo uma foto, descrição e links para seus perfis no YouTube, Instagram, LinkedIn, Twitter e Facebook. Os links devem abrir em novas abas.
+
+Já no Desafio 6, é pedido que os alunos criem uma lista com vários elementos diferentes, como parágrafo, títulos (H1-H6), imagens, abreviações, código-fonte e com marcadores. Ao passar o mouse sobre os elementos, deve aparecer uma caixa com informações adicionais.
 
 ---
 
